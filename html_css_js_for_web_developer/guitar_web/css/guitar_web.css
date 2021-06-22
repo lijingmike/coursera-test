@@ -1,0 +1,31 @@
+#translation {
+	margin: .5rem 0 .5rem 0;
+	font-size: 1vw;
+}
+
+#main-logo {
+	width: 35vw;
+}
+
+#main-navbar-nav {
+	flex: 1;
+}
+
+#main-navbar-nav > .nav-item > .nav-link {
+	text-transform: uppercase;
+	padding: 0;
+	font-size: 1.6vw;
+}
+
+/*#main-body .col {
+	border: solid black;
+}*/
+
+#main-body .guitar-img{
+	max-width: 100%;
+	align-items: center;
+}
+
+.carousel-item {
+	height: 400px;
+}

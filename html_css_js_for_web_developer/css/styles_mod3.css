@@ -1,0 +1,86 @@
+body {
+	color: var(--cloud);
+	font-family: Montserrat;
+	background-color: var(--storm);
+}
+:root{
+	--teal: #194a50;
+	--storm: #0c2431;
+	--cloud: #e1dad2;
+	--sunburst: #d37556; 
+	--sand: #d8a28c;
+}
+/*start of nav bar*/
+.navbar {
+	margin-top: 5px;
+}
+.navbar .nav-brand {
+	text-decoration: none;
+	color: var(--cloud);
+	font-size: 1.6em;
+}
+.navbar button {
+	border: 2px solid var(--cloud);
+}
+.navbar button:hover {
+	border: 2px solid var(--sunburst);
+	background-color: var(--teal);
+}
+.navbar .navbar-toggler-icon{
+	height: 80%;
+}
+.navbar .nav-item {
+	list-style: none;
+	text-align: center;
+	line-height: .75em;
+	border: 2px solid var(--sand);
+}
+
+.navbar .nav-item:nth-child(1){
+	margin-top: 1px;
+}
+.navbar .nav-link{
+	color: var(--sand);
+}
+.navbar .nav-link:hover{
+	background-color: var(--teal);
+	color: var(--sunburst);
+	font-weight: 600;
+}
+/*end of nav bar*/
+
+/*start of main content*/
+.main-content .main-content-hr {
+	width: 95%;
+	margin-right: auto;
+	margin-left: auto;
+	color: var(--sunburst);
+	height: 3px;
+}
+.main-content .page-header {
+	font-weight: 600;
+	font-size: 1.2em;
+}
+.main-content .menu-content {
+	background-color: var(--teal);
+	border: 1px solid var(--cloud);
+	border-radius: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.main-content .menu-title {
+	text-decoration: underline;
+	margin-bottom: .5em;
+	color: var(--sunburst);
+}
+.main-content .menu-description {
+	font-size: .8em;
+	margin-bottom: 0;
+}
+.main-content .jump-to-section svg{
+	fill: var(--cloud);
+}
+.main-content .jump-to-section svg:hover {
+	fill: var(--sunburst);
+	transition: fill 200ms ease-in;
+}
