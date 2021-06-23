@@ -1,21 +1,13 @@
-#main-logo {
-	width: 25vw;
-}
-
-#main-navbar-nav {
-	flex: 1;
-}
-
-.navbar-brand {
+/*.navbar-brand {
 	width: 15%;
 	height: auto;
-}
+}*/
 
-.nav-item {
+.nav-link {
 	position: relative;
 	transition: transform 250ms ease-in-out;
 }
-.nav-item::after {
+.nav-link::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -29,26 +21,33 @@
 	transform: scaleX(0) translateY(1.8em);
 	transition: transform 250ms ease-in-out;
 }
-.nav-item:hover::after {
-	transform: scaleX(.5) translateY(1.8em);
+.nav-link:hover::after {
+	transform: scaleX(0.8) translateY(1.8em);
 	background: rgba(0, 0, 0, 0.3);
 }
-.nav-item:hover {
+.nav-link:hover {
 	transform: scale(1.1);
 }
+.carousel::after {
 
-/*#main-body .guitar-img{
-	max-width: 100%;
-	align-items: center;
-}*/
-
-.carousel-item {
-	height: 26rem;
+}
+.carousel-img {
+	height: 36rem;
 	background-position: center;
-	background-repeat: no-repeat;
 	background-size: cover;
 }
+.bg-img {
+	height: 60rem;	
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.bg-img-right {
+	background-position: left top;
+}
 
+.bg-img-left {
+	background-position: right top;
+}
 
 .videocol {
 	position: relative;

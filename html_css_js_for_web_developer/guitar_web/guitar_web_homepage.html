@@ -2,6 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/guitar_web.css">
 	<title>Guitar Hideout</title>
@@ -38,40 +39,43 @@
 		</div>
 	</nav>
 
-	<div id="main-body" class="container-fluid">
+	<div class="container-fluid">
 		<div class="row">
-			<div class="col col-3">
-				<img src="img/om28.png" alt="guitar-om28" class="guitar-img img-fluid justify-content-center">
+			<div class="bg-img-left bg-img col col-3" style="background-image: url(img/om28.png);">
+				<!-- <img src="img/om28.png" alt="guitar-om28" class="guitar-img img-fluid justify-content-center"> -->
 			</div>
 			<div class="col col-6">
 				<div id="main-carousel" class="carousel slide" data-ride="carousel">
-				  <ol class="carousel-indicators">
-				    <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
-				    <li data-target="#main-carousel" data-slide-to="1"></li>
-				    <li data-target="#main-carousel" data-slide-to="2"></li>
-				  </ol>
+				  	<ol class="carousel-indicators">
+					    <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+					    <li data-target="#main-carousel" data-slide-to="1"></li>
+					    <li data-target="#main-carousel" data-slide-to="2"></li>
+				  	</ol>
 				  <div class="carousel-inner">
-				    <div class="carousel-item active" style="background-image: url(img/carousel_1.jpg);">
-				    </div>
-				    <div class="carousel-item" style="background-image: url(img/carousel_2.jpg);">
-				    </div>
-				    <div class="carousel-item" style="background-image: url(img/carousel_3.jpg);">
-				    </div>
+				    <div class="carousel-item active carousel-img" style="background-image: url(img/carousel_1.jpg);"></div>
+				    <div class="carousel-item carousel-img" style="background-image: url(img/carousel_2.jpg);"></div>
+				    <div class="carousel-item carousel-img" style="background-image: url(img/carousel_3.jpg);"></div>
 				  </div>
 				  <a class="carousel-control-prev" href="#main-carousel" role="button" data-slide="prev">
-				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    	<span class="carousel-control-prev-icon"></span>
 				  </a>
 				  <a class="carousel-control-next" href="#main-carousel" role="button" data-slide="next">
-				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    	<span class="carousel-control-next-icon"></span>
 				  </a>
 				</div>
+				<div class="text-dark bg-light p-2 mt-5 ">
+					<h1 class="lead">Latest Updates</h1>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias nostrum nesciunt incidunt voluptates sed autem voluptatem, dolore, veniam voluptate cumque, aliquam? Dolore nobis dolor harum.</p>
+					<hr>
+					<P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia dolore deserunt facere commodi quasi.</P>
+
+				</div>
 			</div>
-			<div class="col col-3">
-				<img src="img/ls600.png" alt="guitar-ls600" class="guitar-img img-fluid justify-content-center">
+			<div class="bg-img-right bg-img col col-3" style="background-image: url(img/ls600.png)">
+				<!-- <img src="img/ls600.png" alt="guitar-ls600" class="guitar-img img-fluid justify-content-center"> -->
 			</div>
 		</div>
 	</div>
-
 			
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
