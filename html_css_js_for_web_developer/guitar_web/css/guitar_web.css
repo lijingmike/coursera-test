@@ -26,11 +26,11 @@
 	width: 100%;
 	height: 10%;
 	border-radius: .75em;
-	transform: scaleX(0) translateY(1.75em);
+	transform: scaleX(0) translateY(1.8em);
 	transition: transform 250ms ease-in-out;
 }
 .nav-item:hover::after {
-	transform: scaleX(.75) translateY(1.75em);
+	transform: scaleX(.5) translateY(1.8em);
 	background: rgba(0, 0, 0, 0.3);
 }
 .nav-item:hover {
